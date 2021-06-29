@@ -10835,6 +10835,15 @@ textarea.form-control-lg {
   background-color: #9926f0;
 }
 
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .companies {
   padding: 0 0 5rem 0;
 }
@@ -10848,6 +10857,9 @@ textarea.form-control-lg {
 }
 .companies__logo-box img {
   height: 100%;
+}
+.companies__logo-box img:hover {
+  filter: grayscale(120);
 }
 
 .intro-section {
