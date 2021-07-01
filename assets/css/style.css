@@ -11162,6 +11162,10 @@ textarea.form-control-lg {
   max-width: 100%;
 }
 
+.rotate {
+  transition: all 2s ease;
+}
+
 .testimonials {
   position: relative;
   padding: 0;
