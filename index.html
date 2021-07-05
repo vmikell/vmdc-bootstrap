@@ -76,9 +76,11 @@
             <span class="display-2--description lh-base">I'm a front-end developer, <br />living in New
               England</span>
           </h1>
-          <button type="button" class="rounded-pill btn-rounded">
-            get in touch <span><i class="fas fa-arrow-right"></i></span>
-          </button>
+          <a href="#contact" class="">
+            <button type="button" class="rounded-pill btn-rounded">
+              get in touch <span><i class="fas fa-arrow-right"></i></span>
+            </button>
+          </a>
         </div>
 
         <!-- video content starts here -->
@@ -238,7 +240,8 @@
               text-start
             ">
           <div class="services__pic">
-            <img src="/images/Javascript_Monochromatic.png" alt="html illustration" class="img-fluid rotate" id="js-img" />
+            <img src="/images/Javascript_Monochromatic.png" alt="html illustration" class="img-fluid rotate"
+              id="js-img" />
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
@@ -807,7 +810,7 @@
         <div class="col-12 col-lg-6 bg-white shadow p3">
           <div class="form w-100 pb-2">
             <h4 class="display-3--title mb-5">Let's work together</h4>
-            <form action="#" class="row">
+            <form action="POST" data-netlify="true" class="row">
               <div class="col-lg-6 col-md-6 mb-3">
                 <input type="text" placeholder="First Name" id="inputFirstName"
                   class="shadow form-control form-control-lg">
@@ -824,6 +827,7 @@
                 <textarea name="message" placeholder="message" id="message" class="shadow form-control form-control-lg"
                   cols="30" rows="8"></textarea>
               </div>
+              <div data-netlify-recaptcha="true"></div>
               <div class="text-center d-grid mt-1">
                 <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
                   submit
@@ -880,7 +884,8 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="" class="contact-box__info--title">i.am@victormikell.com</a>
+            <a href="mailto:i.am@victormikell.com?subject=Let's work together!"
+              class="contact-box__info--title">i.am@victormikell.com</a>
             <p class="contact-box__info--subtitle">Online support</p>
           </div>
         </div>
@@ -900,7 +905,7 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="" class="contact-box__info--title">Connecticut,USA</a>
+            <a href="" class="contact-box__info--title">Connecticut, USA</a>
             <p class="contact-box__info--subtitle">CT 06851, US</p>
           </div>
         </div>
@@ -917,10 +922,10 @@
           </div>
           <div class="col-lg-7 col-md-6">
             <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-github"></i></a>
-            <a href=""><i class="fab fa-linkedin"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/MikellVictor"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/vmikell"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/victor-mikell/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com/victormikelldotcom/"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
@@ -959,7 +964,7 @@
           <h5 class="text-capitalize fw-bold">contact</h5>
           <hr class="bg-white d-inline-block mb-4" style="width:60px; height:2px;">
           <ul class="list-inline company-list">
-            <li><a href="#">email</a></li>
+            <li><a href="mailto:i.am@victormikell.com">email</a></li>
             <li><a href="#contact">send a message</a></li>
           </ul>
         </div>
