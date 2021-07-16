@@ -10792,6 +10792,16 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.project-btn {
+  padding: 0.5rem 1rem;
+  border: #fff;
+  margin-bottom: 0.35rem;
+}
+.project-btn:hover {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  color: #fff;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -11083,6 +11093,29 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.portfolio-card {
+  background-size: cover;
+  position: relative;
+  height: 295px;
+}
+.portfolio-card:hover {
+  transform: scale(1.5);
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+
+.portfolio-card-1 {
+  background-image: url(../../images/tasty-soul-screenshot.png);
+}
+
+.portfolio-card-2 {
+  background-image: url(../../images/rmdb-screenshot.png);
+}
+
+.portfolio-card-3 {
+  background-image: url(../../images/broken-clouds-sc.jpg);
+}
+
 .portfolio-box {
   position: relative;
   width: 100%;
@@ -11115,6 +11148,10 @@ textarea.form-control-lg {
 .portfolio-box .portfolio-info .caption h4 {
   text-transform: uppercase;
   display: block;
+  font-size: 1.25rem;
+}
+.portfolio-box .portfolio-info .caption p {
+  font-size: 0.8rem;
 }
 .portfolio-box:hover img {
   transform: scale(1.5);

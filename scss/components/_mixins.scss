@@ -1,4 +1,4 @@
-@use'../custom' as *;
+@use '../custom' as *;
 
 // GRADIENT MIXIN
 @mixin gradient {
@@ -10,9 +10,16 @@
 }
 
 // ABSOLUTE CENTER
-@mixin absoluteCenter{
+@mixin absoluteCenter {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+// TRANSITION PROPERTY
+
+@mixin transitionProperty {
+  transition-duration: 1000ms;
+  transition-property: all;
 }
