@@ -11105,15 +11105,15 @@ textarea.form-control-lg {
 }
 
 .portfolio-card-1 {
-  background-image: url(../../images/tasty-soul-screenshot.png);
-}
-
-.portfolio-card-2 {
   background-image: url(../../images/rmdb-screenshot.png);
 }
 
-.portfolio-card-3 {
+.portfolio-card-2 {
   background-image: url(../../images/broken-clouds-sc.jpg);
+}
+
+.portfolio-card-3 {
+  background-image: url(../../images/dochost-screenshot.png);
 }
 
 .portfolio-box {
