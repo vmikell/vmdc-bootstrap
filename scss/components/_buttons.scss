@@ -39,3 +39,14 @@
   }
 }
 
+.project-btn{
+  padding: .5rem 1rem;
+  border: $white;
+  margin-bottom: .35rem; 
+
+  &:hover {
+    @include gradient;
+    color: $white;
+  }
+}
+
