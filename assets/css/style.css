@@ -10793,9 +10793,9 @@ textarea.form-control-lg {
 }
 
 .project-btn {
-  padding: 0.5rem 1rem;
+  padding: 0.35rem 0.5rem;
   border: #fff;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
 }
 .project-btn:hover {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
@@ -11109,10 +11109,18 @@ textarea.form-control-lg {
 }
 
 .portfolio-card-2 {
-  background-image: url(../../images/broken-clouds-sc.jpg);
+  background-image: url(../../images/pulse-fitness-screenshot.png);
 }
 
 .portfolio-card-3 {
+  background-image: url(../../images/assure-insurance-screenshot.png);
+}
+
+.portfolio-card-4 {
+  background-image: url(../../images/broken-clouds-sc.jpg);
+}
+
+.portfolio-card-5 {
   background-image: url(../../images/dochost-screenshot.png);
 }
 

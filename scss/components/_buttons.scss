@@ -2,8 +2,8 @@
 @use '../components/mixins' as *;
 
 .btn-rounded {
-  @include media-breakpoint-down(sm){
-    display:none;
+  @include media-breakpoint-down(sm) {
+    display: none;
   }
   position: relative;
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
@@ -29,24 +29,22 @@
     }
   }
   &:hover {
-  @include gradient;
-  color: $white;
+    @include gradient;
+    color: $white;
 
-
-  span {
-    background-color: rgba($black, 0.6);
-  }
+    span {
+      background-color: rgba($black, 0.6);
+    }
   }
 }
 
-.project-btn{
-  padding: .5rem 1rem;
+.project-btn {
+  padding: 0.35rem 0.5rem;
   border: $white;
-  margin-bottom: .35rem; 
+  margin-bottom: 0.25rem;
 
   &:hover {
     @include gradient;
     color: $white;
   }
 }
-
