@@ -5,6 +5,7 @@
   @include media-breakpoint-down(sm) {
     display: none;
   }
+
   position: relative;
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
   font-weight: 700;
@@ -28,6 +29,7 @@
       line-height: 2.5rem;
     }
   }
+
   &:hover {
     @include gradient;
     color: $white;
