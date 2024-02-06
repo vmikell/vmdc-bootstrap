@@ -42,7 +42,7 @@ const loadFooter = () => {
                 </svg>
               </div>
               <div class="contact-box__info">
-                <a href="mailto:victormikelldesign@gmail.com?subject=Let's work together!"
+                <a href="mailto:info@victormikell.com?subject=Let's work together!"
                   class="contact-box__info--title">email me</a>
                 <p class="contact-box__info--subtitle">Online support</p>
               </div>
@@ -93,7 +93,7 @@ const loadFooter = () => {
         <div class="container mt-5">
           <div class="row text-white justify-content-center mt-3 pb-3">
             <div class="col-12 col-md-12 col-lg-6">
-              <h5 class="fw-bold">victormikelldesign.com</h5>
+              <h5 class="fw-bold">victormikell.com</h5>
               <hr class="bg-white d-inline-block mb-4" style="width:60px; height:2px;">
               <p class="lh-lg">Whether building a site from scratch or working on existing
                 projects, we can develop a plan to meet your needs </p>
@@ -119,7 +119,9 @@ const loadFooter = () => {
             <div class="row text-center text-white">
               <div class="col-12">
                 <div class="footer-bottom__copyright">
-                  &COPY; copyright 2022 <a href="index.html#"> victormikelldesign.com</a> | Created by <a href="#">Victor
+                  &COPY; copyright 
+                  <script>document.write( new Date().getFullYear() )</script> 
+                  <a href="index.html#"> victormikell.com</a> | Created by <a href="#">Victor
                     Mikell</a>
                 </div>
               </div>
