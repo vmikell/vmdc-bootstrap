@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
   loadFooter()
+  document
+    .getElementById('copyright')
+    .appendChild(document.createTextNode(new Date().getFullYear()))
 })
 
 const loadFooter = () => {
@@ -120,7 +123,8 @@ const loadFooter = () => {
               <div class="col-12">
                 <div class="footer-bottom__copyright">
                   &COPY; copyright 
-                  <script>document.write( new Date().getFullYear() )</script> 
+                    <span id="copyright">
+                    </span>
                   <a href="index.html#"> victormikell.com</a> | Created by <a href="#">Victor
                     Mikell</a>
                 </div>
