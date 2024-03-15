@@ -24,3 +24,7 @@ function rotateImg() {
   document.getElementById('js-img').style.transform =
     'rotate(' + rotation + 'deg)'
 }
+
+let height = document.querySelector(".portfolio_headings");
+console.log(height.clientHeight)
+

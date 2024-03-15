@@ -21,23 +21,24 @@ const loadNavbar = () => {
             <a class="nav-link" href="index.html#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#testimonials">Recent Work & Templates</a>
+            <a class="nav-link" href="index.html#recent_work">Recent Work</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#faq">FAQ</a>
           </li>
+                    ${
+                      /*
           <li class="nav-item">
             <a class="nav-link" href="index.html#contact">Contact</a>
-          </li>
-          ${
-            /*<li class="nav-item">
-            <a class="nav-link" href="/blog.html">Blog</a>
           </li>*/ ''
-          }
+                    }
+<li class="nav-item">
+            <a class="nav-link" href="https://blog.victormikell.com">Blog</a>
+          </li>
         </ul>
-        <a href="tel:+16172864865">
+        <a href="index.html#contact">
           <button type="button" class="rounded-pill btn-rounded">
-            617.286.4865<span><i class="fas fa-phone-alt"></i></span>
+            Contact Us<span><i class="fas fa-phone-alt"></i></span>
           </button>
         </a>
       </div>

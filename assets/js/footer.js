@@ -26,8 +26,8 @@ const loadFooter = () => {
                 </svg>
               </div>
               <div class="contact-box__info">
-                <a href="tel:+16172864865" class="contact-box__info--title">617.286.4865</a>
-                <p class="contact-box__info--subtitle">mon-fri 10am-6pm</p>
+                <a href="index.html#contact" class="contact-box__info--title">apply to work with us</a>
+                <p class="contact-box__info--subtitle">let's set up a call</p>
               </div>
 
               <!-- content for email starts here -->
@@ -107,9 +107,9 @@ const loadFooter = () => {
               <ul class="list-inline company-list">
                 <li><a href="index.html#">home</a></li>
                 <li><a href="index.html#services">services</a></li>
-                <li><a href="index.html#testimonials">testimonials</a></li>
+                <li><a href="index.html#recent_work">recent work</a></li>
                 <li><a href="index.html#faq">faq</a></li>
-                <li><a href="index.html#contact">contact</a></li>
+                <li><a href="https://blog.victormikell.com">blog</a></li>
               </ul>
             </div>
           </div>

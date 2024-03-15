@@ -55,4 +55,9 @@
       text-transform: capitalize;
     }
   }
+  .lower{
+    text-transform: lowercase !important;
+    color: $white;
+  }
+
 }

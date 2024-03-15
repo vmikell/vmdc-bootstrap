@@ -11217,6 +11217,26 @@ textarea.form-control-lg {
   background-color: #9926f0;
 }
 
+.heading-line-white::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.heading-line-white::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
 .display-3 {
   font-family: "Poppins", sans-serif;
 }
@@ -11459,99 +11479,23 @@ textarea.form-control-lg {
   padding-left: 1rem;
 }
 
-.portfolio {
-  padding: 4rem 0;
+.portfolio_headings {
+  height: 100px;
+  position: sticky;
+  top: 168px;
 }
-.portfolio button {
-  text-transform: capitalize;
+.portfolio_card a {
+  text-decoration: none;
+  color: black;
 }
-
-.portfolio-card {
-  background-size: cover;
-  position: relative;
-  height: 295px;
+.portfolio_card a img {
+  width: 50%;
+  margin: auto;
 }
-.portfolio-card:hover {
-  transform: scale(1.5);
-  transition-duration: 1000ms;
-  transition-property: all;
-}
-
-.portfolio-card-1 {
-  background-image: url(../../images/template-5_thumb.png);
-}
-
-.portfolio-card-2 {
-  background-image: url(../../images/template-3_thumb.png);
-}
-
-.portfolio-card-3 {
-  background-image: url(../../images/template-4_thumb.png);
-}
-
-.portfolio-card-4 {
-  background-image: url(../../images/template-1_thumb.png);
-}
-
-.portfolio-card-5 {
-  background-image: url(../../images/template-2_thumb.png);
-}
-
-.portfolio-card-7 {
-  background-image: url(../../images/miss-alyse-nicole-media-ss.png);
-}
-
-.portfolio-card-8 {
-  background-image: url(../../images/pho-screenshot.png);
-}
-
-.portfolio-box {
-  position: relative;
-  width: 100%;
-  max-height: 18.5rem;
-  overflow: hidden;
-  margin-bottom: 1.2rem;
-  border-top: 0.5rem solid #bb6ef5;
-}
-.portfolio-box img {
-  width: 100%;
-}
-.portfolio-box .portfolio-info {
-  background-color: rgba(153, 38, 240, 0.75);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-}
-.portfolio-box .portfolio-info .caption {
-  text-align: center;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.portfolio-box .portfolio-info .caption h4 {
-  text-transform: uppercase;
-  display: block;
-  font-size: 1.25rem;
-}
-.portfolio-box .portfolio-info .caption p {
-  font-size: 0.8rem;
-}
-.portfolio-box:hover img {
-  transform: scale(1.5);
-  transition-duration: 1000ms;
-  transition-property: all;
-}
-.portfolio-box:hover .portfolio-info {
-  opacity: 1;
-  visibility: visible;
-  transition-duration: 1000ms;
-  transition-property: all;
+.portfolio_card a p {
+  width: 50%;
+  margin: auto;
+  font-size: 15px;
 }
 
 .services {
@@ -11633,91 +11577,174 @@ textarea.form-control-lg {
   padding-bottom: 2rem;
   text-transform: capitalize;
 }
+.testimonials .lower {
+  text-transform: lowercase !important;
+  color: #fff;
+}
 
-.blog-content .card {
-  width: 320px;
-  display: none;
+.lexend-giga-vmds {
+  font-family: "Lexend Giga", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-.blog-content .card:nth-child(1), .blog-content .card:nth-child(2), .blog-content .card:nth-child(3), .blog-content .card:nth-child(4), .blog-content .card:nth-child(5), .blog-content .card:nth-child(6), .blog-content .card:nth-child(7) {
-  display: inline-block;
-}
-.blog-content .card-body {
-  overflow: hidden;
-  max-height: 520px;
-}
-.blog-content .card-body .separator {
-  max-width: 300px;
-  overflow: hidden;
-}
-.blog-content .card-body .separator img {
+
+.hr {
   position: relative;
-  left: -15px;
-  max-height: 175px;
-}
-.blog-content .card-body .flex-grow, .blog-content .card-body p {
-  max-height: 45px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.blog-content .card-title {
-  text-transform: capitalize;
-  padding-top: 1rem;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-.blog-content .card-footer {
-  background-color: transparent;
-  font-size: 0.75rem;
-  padding: 1rem 0;
-}
-.blog-content .card-footer p {
-  margin: auto;
-}
-.blog-content .card-footer p i {
-  margin-right: 0.5rem;
-}
-.blog__post-byline i {
-  margin-right: 0.5rem;
-}
-.blog__post-body span img {
-  max-width: 300px;
-  display: block;
-  margin: 0 auto;
-}
-@media (min-width: 992px) {
-  .blog .sidebar-social {
-    margin-top: 8rem;
-  }
-}
-.blog .sidebar-social__links a i {
-  font-size: 1.75rem;
-  margin-right: 0.25rem;
-  margin-left: 0.25rem;
-}
-.blog .sidebar-social .card-title {
-  text-transform: uppercase;
-}
-.blog .featured-posts a {
-  text-decoration: none;
-  color: inherit;
-}
-.blog .featured-posts .card-title {
-  text-transform: uppercase;
-}
-.blog .featured-posts .sidebar-links__card {
-  height: 100%;
-  width: 100%;
-}
-.blog .featured-posts .sidebar-links .card {
-  width: 100%;
+  height: 2px !important;
+  background-color: black !important;
+  border: none;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.blog .featured-posts .sidebar-links .card:last-child {
-  margin-bottom: 0;
+
+.navbar_nepg {
+  width: 100vw;
+  overflow: hidden;
 }
-.blog .featured-posts .sidebar-links .card .btn {
-  margin-top: 1rem;
+
+.hero {
+  position: relative;
+  margin-bottom: 5rem;
+  overflow: hidden;
+  background-color: #fff;
+}
+.hero_conatiner {
+  position: relative;
+  width: 100vw;
+  height: 90vh;
+}
+.hero_conatiner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+.hero_conatiner h1 {
+  position: absolute;
+  margin: auto;
+  bottom: 15%;
+  width: 100%;
   color: #fff;
+  font-family: "Lexend Giga", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 56px;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 2;
+}
+.hero_conatiner .man_h1 {
+  color: #f1e9d9;
+  text-shadow: 1px 1px 2px black;
+  height: fit-content;
+  top: 40rem;
+  z-index: 2;
+}
+
+.hero_man {
+  margin-top: 5rem;
+}
+.hero_man img {
+  max-width: 1440px;
+  height: auto;
+}
+
+.goals {
+  position: relative;
+  top: 100px;
+  height: 400px;
+}
+@media (max-width: 811px) {
+  .goals {
+    top: 0;
+  }
+}
+.goals h1 {
+  font-family: "Lexend Giga", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+}
+@media (max-width: 400px) {
+  .goals h1 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 811px) {
+  .goals p {
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .goals p {
+    font-size: 14px;
+  }
+}
+
+.logo {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+.logo img {
+  height: 400px;
+}
+@media (max-width: 812px) {
+  .logo img {
+    max-width: 90vw;
+    height: auto;
+  }
+}
+
+.design_col {
+  width: 50%;
+}
+.design_col img {
+  position: relative;
+  width: 50%;
+  top: 50%;
+  transform: translatey(-50%);
+}
+.design_col-left img {
+  width: 100%;
+}
+.design_col-right img {
+  border: 2px solid black;
+}
+
+.calltoaction {
+  text-decoration: none;
+  font-family: "Lexend Giga", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.calltoaction_link a {
+  text-decoration: none;
+  color: #000;
+}
+.calltoaction_link a i {
+  margin-right: 0.25rem;
+}
+.calltoaction_text h1 {
+  margin: auto;
+  width: 400px;
+  font-size: 20px;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 400px) {
+  .calltoaction_text h1 {
+    width: 300px;
+  }
+}
+.calltoaction_text a {
+  text-decoration: none;
+  color: #000;
+  border: 2px solid;
+  padding: 10px 45px;
 }
 
 /*# sourceMappingURL=style.css.map */
