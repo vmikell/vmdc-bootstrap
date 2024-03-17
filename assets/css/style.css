@@ -11484,6 +11484,14 @@ textarea.form-control-lg {
   position: sticky;
   top: 168px;
 }
+@media (max-width: 575.98px) {
+  .portfolio_headings {
+    position: relative;
+    top: 0;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+}
 .portfolio_card a {
   text-decoration: none;
   color: black;
@@ -11491,6 +11499,11 @@ textarea.form-control-lg {
 .portfolio_card a img {
   width: 50%;
   margin: auto;
+}
+@media (max-width: 575.98px) {
+  .portfolio_card a img {
+    width: 100%;
+  }
 }
 .portfolio_card a p {
   width: 50%;

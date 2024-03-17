@@ -18,7 +18,7 @@ const loadNavbar = () => {
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#services">Services</a>
+            <a class="nav-link"  href="index.html#services">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#recent_work">Recent Work</a>

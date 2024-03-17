@@ -10,21 +10,33 @@ function openMobileWindow() {
 let mobileVersion = document.getElementById('mobileVersion')
 mobileVersion.addEventListener('click', openMobileWindow)
 
-let jsImg = document.getElementById('js-img-btn')
-jsImg.addEventListener('click', function () {
-  rotateImg()
-})
+// let jsImg = document.getElementById('js-img-btn')
+// jsImg.addEventListener('click', function () {
+//   rotateImg()
+// })
 
-let rotation = Math.random() * (360 - 0) + 0
-function rotateImg() {
-  rotation += 90
-  if (rotation >= 360) {
-    rotation = 0
-  }
-  document.getElementById('js-img').style.transform =
-    'rotate(' + rotation + 'deg)'
-}
+// let rotation = Math.random() * (360 - 0) + 0
+// function rotateImg() {
+//   rotation += 90
+//   if (rotation >= 360) {
+//     rotation = 0
+//   }
+//   document.getElementById('js-img').style.transform =
+//     'rotate(' + rotation + 'deg)'
+// }
 
-let height = document.querySelector(".portfolio_headings");
+let height = document.querySelector('.portfolio_headings')
 console.log(height.clientHeight)
 
+// close mobile menu
+document.addEventListener('DOMContentLoaded', function () {
+  const navLink = document.querySelectorAll('.nav-link')
+  navLink.forEach((link) => {
+    link.setAttribute('onclick', 'closeList()')
+  })
+})
+
+function closeList() {
+  let navBar = document.getElementById('navbarNav')
+  navBar.classList.remove('show')
+}
