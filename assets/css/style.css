@@ -11435,6 +11435,7 @@ textarea.form-control-lg {
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
+  margin-bottom: -1rem;
 }
 
 .intros .video-box {
@@ -11479,12 +11480,18 @@ textarea.form-control-lg {
   padding-left: 1rem;
 }
 
+.portfolio {
+  background: #fff;
+  margin-top: -0.25rem;
+  position: relative;
+  z-index: 5;
+}
 .portfolio_headings {
   height: 100px;
   position: sticky;
   top: 168px;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .portfolio_headings {
     position: relative;
     top: 0;
@@ -11500,7 +11507,7 @@ textarea.form-control-lg {
   width: 50%;
   margin: auto;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .portfolio_card a img {
     width: 100%;
   }
@@ -11514,6 +11521,7 @@ textarea.form-control-lg {
 .services {
   position: relative;
   padding: 1rem 0;
+  background: white;
 }
 .services__content {
   padding: 1rem;

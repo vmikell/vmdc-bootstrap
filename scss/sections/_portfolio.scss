@@ -2,16 +2,21 @@
 @use '../components/mixins' as *;
 
 .portfolio {
+  background: $white;
+  margin-top: -.25rem;
+  position: relative;
+  z-index: 5;
+
   &_headings {
     height: 100px;
     position: sticky;
     top: 168px;
 
-    @include media-breakpoint-down(sm) {
-    position: relative;
-    top: 0;
-    text-align: center;
-    margin-bottom: 5rem;
+    @include media-breakpoint-down(md) {
+      position: relative;
+      top: 0;
+      text-align: center;
+      margin-bottom: 5rem;
     }
   }
   &_card {
@@ -23,7 +28,7 @@
         width: 50%;
         margin: auto;
 
-        @include media-breakpoint-down(sm){
+        @include media-breakpoint-down(md) {
           width: 100%;
         }
       }
