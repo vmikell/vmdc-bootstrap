@@ -1,7 +1,7 @@
 let mobileWindow
 function openMobileWindow() {
   mobileWindow = window.open(
-    'https://victormikelldesign.com/',
+    'https://victormikell.com/',
     '_blank',
     'toolbar=0,location=0,menubar=0,scrollbars=0,height=677,width=400,left=100,top=50'
   )
@@ -40,3 +40,4 @@ function closeList() {
   let navBar = document.getElementById('navbarNav')
   navBar.classList.remove('show')
 }
+
